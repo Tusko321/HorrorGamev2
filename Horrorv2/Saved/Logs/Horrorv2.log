@@ -1,0 +1,1038 @@
+﻿Log file open, 06/04/17 15:51:46
+LogInit:Display: Running engine for game: Horrorv2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-195982283) SRandInit(-195982283).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081795
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.04-20.51.47:607][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-20.51.47:607][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.04-20.51.47:618][  0]LogInit: Computer: DESKTOP-HEVE9PH
+[2017.06.04-20.51.47:618][  0]LogInit: User: Kyle
+[2017.06.04-20.51.47:618][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.04-20.51.47:618][  0]LogInit: High frequency timer resolution =3.020494 MHz
+[2017.06.04-20.51.47:619][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.04-20.51.47:619][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.04-20.51.47:619][  0]LogMemory: Process Physical Memory: 263.57 MB used, 263.57 MB peak
+[2017.06.04-20.51.47:619][  0]LogMemory: Process Virtual Memory: 262.09 MB used, 262.09 MB peak
+[2017.06.04-20.51.47:619][  0]LogMemory: Physical Memory: 4326.37 MB used,  3822.64 MB free, 8149.01 MB total
+[2017.06.04-20.51.47:619][  0]LogMemory: Virtual Memory: 644.22 MB used,  3822.64 MB free, 134217728.00 MB total
+[2017.06.04-20.51.47:715][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.04-20.51.48:449][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.04-20.51.49:053][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.04-20.51.49:053][  0]LogD3D11RHI:       4059/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.04-20.51.49:054][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.04-20.51.49:054][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.04-20.51.49:054][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.04-20.51.49:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.04-20.51.49:060][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.04-20.51.49:060][  0]LogWindows: EnumDisplayDevices:
+[2017.06.04-20.51.49:060][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.04-20.51.49:060][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.04-20.51.49:061][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.04-20.51.49:061][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.04-20.51.49:061][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.04-20.51.49:061][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.04-20.51.49:061][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.04-20.51.49:061][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.04-20.51.49:061][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.04-20.51.49:613][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.04-20.51.49:653][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.04-20.51.49:655][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/Kyle/Desktop/Horrorv2/Intermediate/Shaders/WorkingDirectory/6932/).
+[2017.06.04-20.51.49:655][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kyle/AppData/Local/Temp/UnrealShaderWorkingDir/191224924D32FDB85052EB86D74E2553/'.
+[2017.06.04-20.51.49:655][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.04-20.51.51:043][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.04-20.51.51:113][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.04-20.51.51:182][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.04-20.51.51:253][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.04-20.51.51:324][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.04-20.51.51:394][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.04-20.51.51:463][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.04-20.51.51:535][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.04-20.51.51:592][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.04-20.51.51:661][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.04-20.51.51:729][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.04-20.51.51:797][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.04-20.51.51:864][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.04-20.51.51:933][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.04-20.51.52:006][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.04-20.51.52:143][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.04-20.51.52:143][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.04-20.51.52:192][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.04-20.51.52:308][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.04-20.51.52:354][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.04-20.51.52:422][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.04-20.51.52:490][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.04-20.51.52:557][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.04-20.51.52:626][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.04-20.51.52:626][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.04-20.51.53:196][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kyle/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kyle/Desktop/Horrorv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kyle/Desktop/Horrorv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.04-20.51.53:257][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.04-20.51.53:277][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.04-20.51.53:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kyle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.04-20.51.53:301][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.04-20.51.53:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-20.51.53:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-20.51.53:637][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-20.51.53:641][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.04-20.51.53:910][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.04-20.51.53:966][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.04-20.51.54:026][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.04-20.51.54:026][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.04-20.51.54:026][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.04-20.51.54:684][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: horrorv2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2154451780
+[2017.06.04-20.51.54:736][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.06.04-20.51.54:812][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.049098 seconds
+[2017.06.04-20.51.54:819][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.04-20.51.54:819][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.04-20.51.54:819][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.04-20.51.54:904][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.04-20.51.56:894][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.04-20.51.56:971][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.04-20.51.57:542][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.04-20.51.58:023][  0]SourceControl: Info Source control is disabled
+[2017.06.04-20.51.58:053][  0]SourceControl: Info Source control is disabled
+[2017.06.04-20.51.58:117][  0]SourceControl: Info Source control is disabled
+[2017.06.04-20.51.58:179][  0]SourceControl: Info Source control is disabled
+[2017.06.04-20.51.59:865][  0]LogEngine: Initializing Engine...
+[2017.06.04-20.52.00:111][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.06.04-20.52.00:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.04-20.52.00:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.04-20.52.00:412][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.04-20.52.00:420][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.06.04-20.52.00:429][  0]LogInit: FAudioDevice initialized.
+[2017.06.04-20.52.00:466][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-20.52.00:482][  0]LogInit: Texture streaming: Enabled
+[2017.06.04-20.52.00:618][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.04-20.52.00:736][  0]LogInit: Transaction tracking system initialized
+[2017.06.04-20.52.01:196][  0]BlueprintLog: New page: Editor Load
+[2017.06.04-20.52.02:956][  0]LocalizationService: Info Localization service is disabled
+[2017.06.04-20.52.03:869][  0]LogConsoleResponse:Display: 
+[2017.06.04-20.52.04:672][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.04-20.52.04:672][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.04-20.52.05:118][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Desktop/Horrorv2/Content/' took 0.01s
+[2017.06.04-20.52.06:082][  0]SourceControl: Info Source control is disabled
+[2017.06.04-20.52.06:083][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.15/FeaturePacks/StarterContent.upack)
+[2017.06.04-20.52.06:679][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.06.04-20.52.06:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.06.04-20.52.06:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.06.04-20.52.06:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.06.04-20.52.06:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.06.04-20.52.06:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.06.04-20.52.06:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.06.04-20.52.07:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.06.04-20.52.07:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.06.04-20.52.07:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.06.04-20.52.07:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.06.04-20.52.07:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.06.04-20.52.07:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.06.04-20.52.07:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.06.04-20.52.07:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.06.04-20.52.07:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.06.04-20.52.07:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.06.04-20.52.07:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.06.04-20.52.07:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Fire01.uasset"
+[2017.06.04-20.52.07:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.06.04-20.52.07:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.06.04-20.52.07:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.06.04-20.52.07:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Light01.uasset"
+[2017.06.04-20.52.07:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.06.04-20.52.07:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Light02.uasset"
+[2017.06.04-20.52.07:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.06.04-20.52.07:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.06.04-20.52.07:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.06.04-20.52.07:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.06.04-20.52.07:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.06.04-20.52.07:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.06.04-20.52.08:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.06.04-20.52.08:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.06.04-20.52.08:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.06.04-20.52.08:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Steam01.uasset"
+[2017.06.04-20.52.08:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.06.04-20.52.08:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.06.04-20.52.08:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.06.04-20.52.08:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.06.04-20.52.08:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.06.04-20.52.08:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.06.04-20.52.08:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.06.04-20.52.08:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.06.04-20.52.08:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.06.04-20.52.08:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.06.04-20.52.08:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.06.04-20.52.08:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.06.04-20.52.08:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.06.04-20.52.08:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.06.04-20.52.08:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.06.04-20.52.08:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.06.04-20.52.08:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.06.04-20.52.20:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.06.04-20.52.20:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.06.04-20.52.20:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.06.04-20.52.21:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.06.04-20.52.21:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.06.04-20.52.21:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/StarterMap.umap"
+[2017.06.04-20.52.21:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.06.04-20.52.21:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.06.04-20.52.21:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.06.04-20.52.21:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.06.04-20.52.21:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.06.04-20.52.21:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.06.04-20.52.21:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.06.04-20.52.21:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.06.04-20.52.21:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.06.04-20.52.21:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.06.04-20.52.21:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.06.04-20.52.21:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.06.04-20.52.21:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.06.04-20.52.21:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.06.04-20.52.21:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.06.04-20.52.21:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.06.04-20.52.22:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.06.04-20.52.22:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.06.04-20.52.22:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.06.04-20.52.22:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.06.04-20.52.22:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.06.04-20.52.22:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.06.04-20.52.22:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.06.04-20.52.22:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.06.04-20.52.22:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.06.04-20.52.22:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.06.04-20.52.22:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.06.04-20.52.22:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.06.04-20.52.22:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.06.04-20.52.22:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.06.04-20.52.22:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.06.04-20.52.22:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.06.04-20.52.22:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.06.04-20.52.22:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.06.04-20.52.22:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.06.04-20.52.22:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.06.04-20.52.22:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.06.04-20.52.22:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.06.04-20.52.22:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.06.04-20.52.23:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.06.04-20.52.23:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.06.04-20.52.23:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.06.04-20.52.23:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.06.04-20.52.23:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.06.04-20.52.23:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.06.04-20.52.23:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.06.04-20.52.23:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.06.04-20.52.23:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.06.04-20.52.23:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.06.04-20.52.23:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.06.04-20.52.23:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.06.04-20.52.23:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.06.04-20.52.23:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.06.04-20.52.23:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.06.04-20.52.23:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.06.04-20.52.23:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.06.04-20.52.23:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.06.04-20.52.23:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.06.04-20.52.23:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.06.04-20.52.23:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.06.04-20.52.23:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.06.04-20.52.24:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.06.04-20.52.24:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.06.04-20.52.24:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.06.04-20.52.24:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.06.04-20.52.24:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Door.uasset"
+[2017.06.04-20.52.24:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.06.04-20.52.24:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.06.04-20.52.24:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.06.04-20.52.24:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.06.04-20.52.24:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.06.04-20.52.24:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.06.04-20.52.24:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.06.04-20.52.24:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.06.04-20.52.24:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.06.04-20.52.24:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.06.04-20.52.24:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.06.04-20.52.24:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.06.04-20.52.24:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.06.04-20.52.24:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.06.04-20.52.24:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.06.04-20.52.24:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.06.04-20.52.24:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.06.04-20.52.24:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.06.04-20.52.24:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.06.04-20.52.24:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.06.04-20.52.24:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.06.04-20.52.24:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.06.04-20.52.25:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.06.04-20.52.25:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.06.04-20.52.25:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.06.04-20.52.25:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.06.04-20.52.25:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.06.04-20.52.25:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.06.04-20.52.25:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.06.04-20.52.25:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.06.04-20.52.25:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.06.04-20.52.25:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.06.04-20.52.25:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.06.04-20.52.25:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.06.04-20.52.25:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.06.04-20.52.25:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.06.04-20.52.25:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.06.04-20.52.25:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.06.04-20.52.25:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.06.04-20.52.25:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.06.04-20.52.25:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.06.04-20.52.25:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.06.04-20.52.25:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.06.04-20.52.25:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.06.04-20.52.25:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.06.04-20.52.25:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.06.04-20.52.26:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.06.04-20.52.26:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.06.04-20.52.26:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.06.04-20.52.26:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.06.04-20.52.26:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.06.04-20.52.27:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.06.04-20.52.27:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.06.04-20.52.27:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.06.04-20.52.27:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.06.04-20.52.27:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.06.04-20.52.27:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.06.04-20.52.27:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.06.04-20.52.27:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.06.04-20.52.27:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.06.04-20.52.28:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.06.04-20.52.28:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.06.04-20.52.28:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.06.04-20.52.28:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.06.04-20.52.28:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.06.04-20.52.28:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.06.04-20.52.28:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.06.04-20.52.28:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.06.04-20.52.28:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.06.04-20.52.28:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.06.04-20.52.28:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.06.04-20.52.29:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.06.04-20.52.29:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.06.04-20.52.29:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.06.04-20.52.29:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.06.04-20.52.29:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.06.04-20.52.29:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.06.04-20.52.30:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.06.04-20.52.30:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.06.04-20.52.30:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.06.04-20.52.30:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.06.04-20.52.30:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.06.04-20.52.30:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.06.04-20.52.31:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.06.04-20.52.31:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.06.04-20.52.31:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.06.04-20.52.31:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.06.04-20.52.31:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.06.04-20.52.31:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.06.04-20.52.31:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.06.04-20.52.31:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.06.04-20.52.31:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.06.04-20.52.31:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.06.04-20.52.31:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.06.04-20.52.32:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.06.04-20.52.32:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.06.04-20.52.32:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.06.04-20.52.32:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.06.04-20.52.32:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.06.04-20.52.32:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.06.04-20.52.33:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.06.04-20.52.33:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.06.04-20.52.33:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.06.04-20.52.33:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.06.04-20.52.33:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.06.04-20.52.33:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.06.04-20.52.34:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.06.04-20.52.34:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.06.04-20.52.34:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.06.04-20.52.34:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.06.04-20.52.34:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.06.04-20.52.34:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.06.04-20.52.34:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.06.04-20.52.35:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.06.04-20.52.35:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.06.04-20.52.35:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.06.04-20.52.36:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.06.04-20.52.36:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.06.04-20.52.36:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.06.04-20.52.37:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.06.04-20.52.37:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.06.04-20.52.37:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.06.04-20.52.37:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.06.04-20.52.37:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.06.04-20.52.37:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.06.04-20.52.37:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.06.04-20.52.38:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.06.04-20.52.38:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.06.04-20.52.38:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.06.04-20.52.38:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.06.04-20.52.38:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.06.04-20.52.38:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.06.04-20.52.38:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.06.04-20.52.38:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.06.04-20.52.38:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.06.04-20.52.38:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.06.04-20.52.38:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.06.04-20.52.39:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.06.04-20.52.39:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.06.04-20.52.39:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.06.04-20.52.39:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.06.04-20.52.39:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.06.04-20.52.39:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.06.04-20.52.39:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.06.04-20.52.39:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.06.04-20.52.39:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.06.04-20.52.39:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.06.04-20.52.40:735][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.06.04-20.52.40:884][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.06.04-20.52.40:907][  0]LogSavePackage: Save=15.82ms
+[2017.06.04-20.52.40:908][  0]LogSavePackage: Moving '../../../../../../Users/Kyle/Desktop/Horrorv2/Saved/Floor_400x400F50EACE4472FA415D1F536A1ED34BE3B.tmp' to '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.06.04-20.52.40:928][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kyle/Desktop/Horrorv2/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.04-20.52.40:928][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.06.04-20.52.40:932][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-20.52.40:933][  0]LightingResults: New page: Lighting Build
+[2017.06.04-20.52.40:986][  0]MapCheck: New page: Map Check
+[2017.06.04-20.52.40:986][  0]LightingResults: New page: Lighting Build
+[2017.06.04-20.52.45:866][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.47:419][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.48:508][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.50:857][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.51:629][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64) - 54 MB total VRAM
+[2017.06.04-20.52.51:668][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.51:990][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.52:333][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.52:957][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048) - 54 MB total VRAM
+[2017.06.04-20.52.53:242][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64) - 54 MB total VRAM
+[2017.06.04-20.52.53:267][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024) - 54 MB total VRAM
+[2017.06.04-20.52.53:743][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024) - 54 MB total VRAM
+[2017.06.04-20.52.54:192][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024) - 54 MB total VRAM
+[2017.06.04-20.52.54:990][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024) - 54 MB total VRAM
+[2017.06.04-20.52.55:365][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32) - 54 MB total VRAM
+[2017.06.04-20.52.55:520][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.04-20.52.56:250][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-20.52.56:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-20.52.56:312][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.599ms to complete.
+[2017.06.04-20.52.56:312][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 15.380
+[2017.06.04-20.52.57:296][  0]LogCollectionManager: Loaded 0 collections in 0.001809 seconds
+[2017.06.04-20.52.57:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Desktop/Horrorv2/Saved/Collections/' took 0.01s
+[2017.06.04-20.52.57:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Desktop/Horrorv2/Content/Developers/Kyle/Collections/' took 0.01s
+[2017.06.04-20.52.57:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Desktop/Horrorv2/Content/Collections/' took 0.01s
+[2017.06.04-20.52.57:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.04-20.52.57:588][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2245 classes and 453 folders.
+[2017.06.04-20.52.57:731][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.04-20.52.57:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-20.52.58:020][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.04-20.52.58:282][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.04-20.52.58:348][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.04-20.52.58:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.04-20.52.58:463][  0]LogLoad: (Engine Initialization) Total time: 73.37 seconds
+[2017.06.04-20.52.58:463][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.14 seconds
+[2017.06.04-20.52.58:463][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.04-20.52.58:463][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.04-20.52.58:473][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.04-20.52.58:474][  0]LogOcInput: OculusInput pre-init called
+[2017.06.04-20.52.58:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.04-20.52.58:686][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-20.52.58:690][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.04-20.52.58:755][  0]LogSlate: Took 0.030172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.04-20.52.59:663][  0]LogRenderer: Reallocating scene render targets to support 992x556 NumSamples 1 (Frame:3).
+[2017.06.04-20.52.59:663][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-20.53.01:463][152]LogAssetRegistry: Asset discovery search completed in 66.7494 seconds
+[2017.06.04-20.53.01:463][152]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.04-20.53.01:463][152]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.06.04-20.53.07:863][895]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigWall2)
+[2017.06.04-20.53.10:319][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2017.06.04-20.53.10:678][151]Cmd: DELETE
+[2017.06.04-20.53.10:678][151]Cmd: ACTOR DELETE
+[2017.06.04-20.53.10:682][151]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.10:699][151]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.06.04-20.53.11:205][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.06.04-20.53.11:290][212]Cmd: DELETE
+[2017.06.04-20.53.11:290][212]Cmd: ACTOR DELETE
+[2017.06.04-20.53.11:291][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.11:301][212]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.04-20.53.11:731][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2017.06.04-20.53.11:783][263]Cmd: DELETE
+[2017.06.04-20.53.11:783][263]Cmd: ACTOR DELETE
+[2017.06.04-20.53.11:783][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.11:796][263]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.04-20.53.12:324][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2017.06.04-20.53.12:419][327]Cmd: DELETE
+[2017.06.04-20.53.12:419][327]Cmd: ACTOR DELETE
+[2017.06.04-20.53.12:420][327]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.12:434][327]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.04-20.53.12:808][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2017.06.04-20.53.12:899][371]Cmd: DELETE
+[2017.06.04-20.53.12:899][371]Cmd: ACTOR DELETE
+[2017.06.04-20.53.12:900][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.12:909][371]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.13:754][471]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.06.04-20.53.14:201][511]Cmd: DELETE
+[2017.06.04-20.53.14:201][511]Cmd: ACTOR DELETE
+[2017.06.04-20.53.14:202][511]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.04-20.53.14:212][511]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.14:569][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2017.06.04-20.53.14:668][554]Cmd: DELETE
+[2017.06.04-20.53.14:668][554]Cmd: ACTOR DELETE
+[2017.06.04-20.53.14:669][554]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.14:679][554]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.04-20.53.14:982][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube10)
+[2017.06.04-20.53.15:074][589]Cmd: DELETE
+[2017.06.04-20.53.15:075][589]Cmd: ACTOR DELETE
+[2017.06.04-20.53.15:075][589]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.15:085][589]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.04-20.53.15:492][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2017.06.04-20.53.15:583][638]Cmd: DELETE
+[2017.06.04-20.53.15:583][638]Cmd: ACTOR DELETE
+[2017.06.04-20.53.15:584][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.15:593][638]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.16:025][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2017.06.04-20.53.16:078][689]Cmd: DELETE
+[2017.06.04-20.53.16:078][689]Cmd: ACTOR DELETE
+[2017.06.04-20.53.16:079][689]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.16:088][689]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.16:501][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2017.06.04-20.53.16:554][738]Cmd: DELETE
+[2017.06.04-20.53.16:554][738]Cmd: ACTOR DELETE
+[2017.06.04-20.53.16:555][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.16:567][738]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.04-20.53.17:108][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.06.04-20.53.17:207][803]Cmd: DELETE
+[2017.06.04-20.53.17:207][803]Cmd: ACTOR DELETE
+[2017.06.04-20.53.17:208][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.17:220][803]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.04-20.53.17:988][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2017.06.04-20.53.18:040][894]Cmd: DELETE
+[2017.06.04-20.53.18:040][894]Cmd: ACTOR DELETE
+[2017.06.04-20.53.18:041][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.18:053][894]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.04-20.53.20:552][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2017.06.04-20.53.20:644][192]Cmd: DELETE
+[2017.06.04-20.53.20:644][192]Cmd: ACTOR DELETE
+[2017.06.04-20.53.20:644][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.20:655][192]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.04-20.53.20:912][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2017.06.04-20.53.21:003][223]Cmd: DELETE
+[2017.06.04-20.53.21:003][223]Cmd: ACTOR DELETE
+[2017.06.04-20.53.21:003][223]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.21:013][223]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.21:279][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2017.06.04-20.53.21:331][254]Cmd: DELETE
+[2017.06.04-20.53.21:331][254]Cmd: ACTOR DELETE
+[2017.06.04-20.53.21:331][254]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.21:341][254]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.22:920][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2017.06.04-20.53.23:058][448]Cmd: DELETE
+[2017.06.04-20.53.23:058][448]Cmd: ACTOR DELETE
+[2017.06.04-20.53.23:059][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.23:068][448]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.24:458][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2017.06.04-20.53.24:601][621]Cmd: DELETE
+[2017.06.04-20.53.24:601][621]Cmd: ACTOR DELETE
+[2017.06.04-20.53.24:602][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.24:612][621]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.25:214][692]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube19)
+[2017.06.04-20.53.26:135][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2017.06.04-20.53.26:548][820]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-20.53.28:329][ 15]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-20.53.29:149][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2017.06.04-20.53.29:508][138]Cmd: DELETE
+[2017.06.04-20.53.29:509][138]Cmd: ACTOR DELETE
+[2017.06.04-20.53.29:509][138]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.29:519][138]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.30:065][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2017.06.04-20.53.30:495][242]Cmd: DELETE
+[2017.06.04-20.53.30:495][242]Cmd: ACTOR DELETE
+[2017.06.04-20.53.30:496][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.30:505][242]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.31:887][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2017.06.04-20.53.32:097][421]Cmd: DELETE
+[2017.06.04-20.53.32:097][421]Cmd: ACTOR DELETE
+[2017.06.04-20.53.32:097][421]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.04-20.53.32:107][421]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.04-20.53.34:772][724]MapCheck: New page: Map Check
+[2017.06.04-20.53.34:937][724]LightingResults: New page: Lighting Build - Jun 4, 2017, 10:53:34 AM
+[2017.06.04-20.53.35:483][724]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.04-20.53.35:852][724]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.04-20.53.36:308][724]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.04-20.53.38:456][724]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.04-20.53.38:456][724]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6932
+[2017.06.04-20.53.47:862][724]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.04-20.53.47:862][724]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.04-20.53.47:862][724]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.04-20.53.47:862][724]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.04-20.53.47:862][724]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.04-20.53.48:604][724]LogEditorBuildUtils: Build time 0:13
+[2017.06.04-20.54.08:571][445]Job is a success!
+[2017.06.04-20.54.08:598][446]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048) - 153 MB total VRAM
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024) - 153 MB total VRAM
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048) - 153 MB total VRAM
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32) - 153 MB total VRAM
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64) - 153 MB total VRAM
+[2017.06.04-20.54.09:804][446]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64) - 153 MB total VRAM
+[2017.06.04-20.54.10:005][446]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32) - 153 MB total VRAM
+[2017.06.04-20.54.10:216][446]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024) - 153 MB total VRAM
+[2017.06.04-20.54.10:664][446]Lightmass on DESKTOP-HEVE9PH: 19.8 sec total, 284 ms importing, 78 ms setup, 2.45 sec photons, 16.3 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 1:05 min total, 14.4 sec processing.
+[2017.06.04-20.54.10:795][446]LogStaticLightingSystem: Illumination: 35.8 sec (993 ms encoding lightmaps, 404 ms encoding shadowmaps)
+[2017.06.04-20.54.10:795][446]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.06.04-20.54.10:795][446]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.04-20.54.11:803][446]DumpUnbuiltLightIteractions
+[2017.06.04-20.54.11:803][446]Lights with unbuilt interactions: 0
+[2017.06.04-20.54.11:803][446]
+[2017.06.04-20.54.11:803][446]Primitives with unbuilt interactions: 0
+[2017.06.04-20.54.11:837][447]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.04-20.54.11:837][447]MapCheck: New page: FirstPersonExampleMap - Jun 4, 2017, 10:54:11 AM
+[2017.06.04-20.54.12:106][447]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 269.357ms to complete.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonHUD_C_0' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SceneComponent_1__4AE00C91' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonHUD_C_1' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveDrawHUD' or package '/Game/FirstPersonBP/Blueprints/FirstPersonHUD'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FirstPersonHUD_C_85' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FirstPersonHUD_C_84' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HMDEnabled?' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_FirstPersonHUD' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveDrawHUD' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.04-20.54.38:910][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:278][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonProjectile_C_2' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SphereComponent_84__ABACB698' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_252__1AD2D010' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ProjectileMovementComponent_40__A6522401' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonProjectile_C_3' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CollisionComponent' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Projectile' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_FirstPersonProjectile' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FirstPersonProjectile_C_86' or package '/Engine/Transient'.
+[2017.06.04-20.54.41:279][121]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FirstPersonProjectile_C_87' or package '/Engine/Transient'.
+[2017.06.04-20.54.44:317][385]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-20.54.44:490][385]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.06.04-20.54.45:899][385]LogSlate: Took 0.019810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.04-20.54.46:460][386]LogSlate: Took 0.026405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.04-20.55.33:321][887]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.33:334][887]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.33:336][887]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.33:398][887]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.34:397][969]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.34:399][969]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.34:401][969]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.34:445][969]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.35:271][ 37]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.35:273][ 37]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.35:274][ 37]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.35:317][ 37]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.36:542][140]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.36:544][140]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.36:545][140]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.36:588][140]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.45:198][806]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.45:200][806]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.45:201][806]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.45:244][806]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.47:870][ 31]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.47:910][ 34]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_4:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.54:084][530]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.54:963][604]LogScript:Warning: Accessed None trying to read property FP_Gun
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2017.06.04-20.55.55:527][652]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.04-20.55.55:589][652]LogBlueprint:Error: [Compiler FirstPersonCharacter] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.06.04-20.55.55:592][652]LogBlueprint:Error: [Compiler FirstPersonCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.55:592][652]LogBlueprint:Error: [Compiler FirstPersonCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.55:592][652]LogBlueprint:Error: [Compiler FirstPersonCharacter] Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.55:594][652]LogBlueprint:Error: [Compiler FirstPersonCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.56:107][652]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.06.04-20.55.56:107][652]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.56:107][652]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.56:107][652]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.56:107][652]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.06.04-20.55.56:107][652]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0251.01] Compile of FirstPersonCharacter failed. 5 Fatal Issue(s) 0 Warning(s) [in 580 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.06.04-20.56.15:798][ 29]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.04-20.56.16:923][ 97]LogSavePackage: Save=47.06ms
+[2017.06.04-20.56.16:923][ 97]LogSavePackage: Moving '../../../../../../Users/Kyle/Desktop/Horrorv2/Saved/FirstPersonCharacterFC0460DE4106B0B801973BBD012A2787.tmp' to '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.06.04-20.56.16:926][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.06.04-20.56.20:223][367]LogSavePackage: Save=194.68ms
+[2017.06.04-20.56.20:223][367]LogSavePackage: Moving '../../../../../../Users/Kyle/Desktop/Horrorv2/Saved/FirstPersonExampleMap4935E0CB4539FA5C8109DD9A3A518000.tmp' to '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.04-20.56.20:228][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.04-20.56.20:278][367]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.371
+[2017.06.04-20.56.20:562][367]LogSavePackage: Save=243.58ms
+[2017.06.04-20.56.20:562][367]LogSavePackage: Moving '../../../../../../Users/Kyle/Desktop/Horrorv2/Saved/FirstPersonExampleMap_BuiltDataA360B2574616C9E8020E038BDB805125.tmp' to '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.06.04-20.56.20:565][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.04-20.56.20:589][367]LogSavePackage: Save=12.40ms
+[2017.06.04-20.56.20:589][367]LogSavePackage: Moving '../../../../../../Users/Kyle/Desktop/Horrorv2/Saved/FirstPersonGameMode1020D95749B3BBBFA7C2DF9DC870648F.tmp' to '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2017.06.04-20.56.20:592][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kyle/Desktop/Horrorv2/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.06.04-20.56.23:842][737]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.04-20.56.24:035][738]Cmd: QUIT_EDITOR
+[2017.06.04-20.56.24:098][738]LogExit: Preparing to exit.
+[2017.06.04-20.56.25:179][738]LogDirectoryWatcher: A directory notification for 'C:/Users/Kyle/Desktop/Horrorv2/Content/' was aborted.
+[2017.06.04-20.56.25:236][738]LogExit: Editor shut down
+[2017.06.04-20.56.25:236][738]LogExit: Transaction tracking system shut down
+[2017.06.04-20.56.25:369][738]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.04-20.56.25:369][738]LogExit: Object subsystem successfully closed.
+[2017.06.04-20.56.25:394][738]LogD3D11RHI: Shutdown
+[2017.06.04-20.56.25:394][738]LogD3D11RHI: CleanupD3DDevice
+[2017.06.04-20.56.25:476][738]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.04-20.56.25:499][738]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.04-20.56.25:499][738]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.04-20.56.25:500][738]LogDirectoryWatcher: A directory notification for 'C:/Users/Kyle/Desktop/Horrorv2/Content/Collections/' was aborted.
+[2017.06.04-20.56.25:500][738]LogDirectoryWatcher: A directory notification for 'C:/Users/Kyle/Desktop/Horrorv2/Content/Developers/Kyle/Collections/' was aborted.
+[2017.06.04-20.56.25:500][738]LogDirectoryWatcher: A directory notification for 'C:/Users/Kyle/Desktop/Horrorv2/Saved/Collections/' was aborted.
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.04-20.56.25:500][738]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.04-20.56.25:501][738]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.04-20.56.25:528][738]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.04-20.56.25:529][738]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.04-20.56.25:571][738]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.04-20.56.25:577][738]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.04-20.56.25:643][738]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.04-20.56.25:644][738]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.04-20.56.25:644][738]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.04-20.56.25:644][738]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.04-20.56.25:645][738]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.04-20.56.25:645][738]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.04-20.56.25:645][738]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.04-20.56.25:645][738]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.04-20.56.25:645][738]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.04-20.56.25:746][738]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.04-20.56.25:989][738]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.04-20.56.25:992][738]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.04-20.56.26:167][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.04-20.56.26:167][738]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Kyle/Desktop/Horrorv2/Content/' was aborted.
+[2017.06.04-20.56.26:167][738]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.04-20.56.26:168][738]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.04-20.56.26:173][738]LogDerivedDataCache: Shutdown
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.04-20.56.26:173][738]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.04-20.56.26:174][738]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.04-20.56.26:174][738]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.04-20.56.26:174][738]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.04-20.56.26:174][738]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B48D6BA2A-4940-AF00-9270-5381AE65CC70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=c6357f4647be087423838c915e1be534%7C612f18e11e7a4f9eb8de45697d12b283%7C7ba5d0d3-2e43-4b72-b6f0-216626b3f152&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.04-20.56.26:175][738]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.04-20.56.26:177][738]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.04-20.56.26:177][738]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.04-20.56.26:177][738]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.04-20.56.26:177][738]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.04-20.56.26:177][738]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.04-20.56.26:179][738]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.04-20.56.26:181][738]LogExit: Exiting.
+[2017.06.04-20.56.26:193][738]Log file closed, 06/04/17 15:56:26
